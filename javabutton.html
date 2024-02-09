@@ -1,0 +1,43 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+var a;
+var b;
+var c;
+a=prompt("plz enter the first number:");
+b=prompt("plz enter the second number:");
+a=parseInt(a);
+b=parseInt(b);
+
+function add()
+{
+c=a+b;
+alert(" the sum of "+a+" & "+b+" is:"+c);
+}
+function sub()
+{
+c=a-b;
+alert(" the sub of "+a+" &"+b+ " is:"+c);
+}
+function mul()
+{
+c=a*b;
+alert(" the mul of "+a+ "&"+b+" is:"+c);
+}
+function div()
+{
+c=a/b;
+alert(" the div of "+a+"&" +b+" is:"+c);
+}
+</script>
+</head>
+<body>
+<input type="button" name="b1" value="addition" onClick="add();">
+<input type="button" name="b2" value="subtraction" onClick="sub();">
+<input type="button" name="b3" value="multiplication" onClick="mul();">
+<input type="button" name="b4" value="division" onClick="div();">
+
+
+</body>
+</html>
